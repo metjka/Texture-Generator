@@ -249,6 +249,7 @@ namespace TextureGen {
                     if (greyscale)
                         clr = Color.FromArgb((int)Math.Abs(v - R), (int)Math.Abs(v - G), (int)Math.Abs(v - B));
                         //clr = Color.FromArgb((int)r.Next(R), (int)r.Next(G), (int)r.Next(B));
+
                     else
                         clr = Color.FromArgb((int)v, R, G, B);
                     tmp.SetPixel(i, j, clr);
