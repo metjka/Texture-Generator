@@ -158,11 +158,7 @@ namespace TextureGen {
                     if (Dist < 0.001) //avoid division by zero
                         Dist = 0.001;
 
-                    int pixX = (i);
-                    int pixY = (j);
-
-
-                    Values[pixX, pixY] = Values[pixX, pixY] + (int)(power * radius / Math.Log(Dist + 1));
+                    Values[i, j] = Values[i, j] + (int)(power * radius / Math.Log(Dist + 1));
 
 
                 }
