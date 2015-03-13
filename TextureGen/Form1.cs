@@ -20,6 +20,7 @@ namespace TextureGen {
         private void button1_Click(object sender, EventArgs e) {
 
 
+
             //8767
             Bitmap tmp = new Bitmap(pictureBox1.Width, pictureBox1.Height);
 
